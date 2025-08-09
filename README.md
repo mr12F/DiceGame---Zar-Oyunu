@@ -71,12 +71,13 @@ cd zaroyunu
 
 ```
 zaroyunu/
-├─ index.html        # Oyun arayüzü
-├─ script.js         # Oyun mantığı (event handling)
-├─ style.css         # Stil ve responsive düzenlemeler
-├─ cong.png          # Kazanma görseli
-├─ dice.png          # Zar genel görseli
-└─ dices/            # Zarın 1..6 görselleri (dice-1..dice-6.png)
+├─ index.html             # Oyun arayüzü
+├─ script.js              # Oyun mantığı (event handling)
+├─ style.css              # Stil ve responsive düzenlemeler
+├─ cong.png               # Kazanma görseli
+├─ assets/screenshots     # Oyun içi görselleri
+├─ dice.png               # Zar genel görseli
+└─ dices/                 # Zarın 1..6 görselleri (dice-1..dice-6.png)
 ```
 
 ---
