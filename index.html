@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Zar Oyunu</title>
+    <link rel="icon" type="png" href="icon.png" />
+  </head>
+
+  <body>
+    <main>
+      <div class="container">
+        <section class="player player__0 player__active">
+          <h2 class="name" id="name__0">1. Oyuncu</h2>
+          <p class="score" id="score__0">0</p>
+          <div class="current">
+            <p class="current-label label-0">Gelen Zar</p>
+            <p class="current-score" id="current__0">0</p>
+          </div>
+        </section>
+
+        <section class="player player__1">
+          <h2 class="name" id="name__1">2. Oyuncu</h2>
+          <p class="score" id="score__1">0</p>
+          <div class="current">
+            <p class="current-label label-1">Gelen Zar</p>
+            <p class="current-score" id="current__1">0</p>
+          </div>
+        </section>
+
+        <img src="dice.png" alt="" class="dice" />
+        <button type="button" class="btn btn__new">Yeni Oyun</button>
+        <button type="button" class="btn btn__roll">Zar At</button>
+        <button type="button" class="btn btn__hold">Sayıyı Tut</button>
+      </div>
+    </main>
+  </body>
+
+  <script src="script.js"></script>
+</html>

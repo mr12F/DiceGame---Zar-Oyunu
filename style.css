@@ -1,0 +1,129 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);
+    font-family: 'Oswald', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .container {
+    background: linear-gradient(to right, #4b79a1, #283e51);
+    position: relative;
+    backdrop-filter: blur(200px);
+    filter: blur();
+    width: 100rem;
+    height: 60rem;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    border-radius: 9px;
+    overflow: hidden;
+    display: flex;
+}
+
+.player {
+    flex: 0%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.75s;
+}
+
+.name{
+    position: relative;
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.score {
+    font-size: 8rem;
+    font-weight: 300;
+    margin-bottom: auto;
+}
+
+.player__active{
+    background-color:#f1f2b5;
+}
+
+.player__active .name, .player__active .score, .player__active .current{
+    font-weight: 700;
+}
+
+.current {
+    background-color:cadetblue;
+    opacity: .8;
+    border-radius: 10px;
+    
+    width: 65%;
+    text-align: center;
+    padding: 2rem;
+    transition: all 0.75s;
+}
+
+.current-label{
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+    color: black;
+}
+
+.current-score {
+    font-size: 3rem;
+    color: black;
+}
+
+.btn {
+    position: absolute;
+    left: 50%;
+    text-transform: uppercase;
+    transform: translateX(-50%);
+    font-family: inherit;
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    background-color:coral;
+    backdrop-filter: blur(10px);
+    padding: 0.7rem 2.5rem;
+    border-radius: 50rem;
+    box-shadow: 0 2rem 3.5rem rgba(0, 0, 0, 0.2);
+}
+
+.btn__new {
+    top: 4rem;
+}
+
+.btn__roll {
+    top: 40rem;
+}
+
+.btn__hold {
+    top: 47rem;
+}
+
+/* .btn:active {
+    transform: translate(50%, 3px);
+} */
+
+/* .btn:focus {
+    outline: none;
+} */
+
+.dice {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10rem;
+    height: 10rem;
+    top: 20rem;
+    transition: all 0.3s;
+}
