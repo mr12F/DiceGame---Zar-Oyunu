@@ -43,8 +43,7 @@ Bu depo; **statik HTML/CSS/JS** ile yazılmış, anlaşılır yapıda, kolayca g
 1. Depoyu klonlayın veya ZIP dosyasını indirin.
 
 ```bash
-git clone <repository-url>
-cd zaroyunu
+git clone https://github.com/muratkaya12/DiceGame---Zar-Oyunu.git
 ```
 
 2. Statik olarak çalıştırın (tarayıcıda `index.html`):
